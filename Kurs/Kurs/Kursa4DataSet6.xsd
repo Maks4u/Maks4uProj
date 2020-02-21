@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Kursa4DataSet6" targetNamespace="http://tempuri.org/Kursa4DataSet6.xsd" xmlns:mstns="http://tempuri.org/Kursa4DataSet6.xsd" xmlns="http://tempuri.org/Kursa4DataSet6.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Kursa4ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Kursa4ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Kurs.Properties.Settings.GlobalReference.Default.Kursa4ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DiagnozCompleteTableAdapter" GeneratorDataComponentClassName="DiagnozCompleteTableAdapter" Name="DiagnozComplete" UserDataComponentName="DiagnozCompleteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kursa4ConnectionString (Settings)" DbObjectName="Kursa4.dbo.DiagnozComplete" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Prizvische, Imya, Pobatkovi, IDdiagnoz, NameDiagnoz FROM dbo.DiagnozComplete</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Prizvische" DataSetColumn="Prizvische" />
+              <Mapping SourceColumn="Imya" DataSetColumn="Imya" />
+              <Mapping SourceColumn="Pobatkovi" DataSetColumn="Pobatkovi" />
+              <Mapping SourceColumn="IDdiagnoz" DataSetColumn="IDdiagnoz" />
+              <Mapping SourceColumn="NameDiagnoz" DataSetColumn="NameDiagnoz" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DrugsCompleteTableAdapter" GeneratorDataComponentClassName="DrugsCompleteTableAdapter" Name="DrugsComplete" UserDataComponentName="DrugsCompleteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kursa4ConnectionString (Settings)" DbObjectName="Kursa4.dbo.DrugsComplete" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Numer, WhatToDo, IDdiagnoz FROM dbo.DrugsComplete</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Numer" DataSetColumn="Numer" />
+              <Mapping SourceColumn="WhatToDo" DataSetColumn="WhatToDo" />
+              <Mapping SourceColumn="IDdiagnoz" DataSetColumn="IDdiagnoz" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Kursa4DataSet6" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Kursa4DataSet6" msprop:Generator_UserDSName="Kursa4DataSet6">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DiagnozComplete" msprop:Generator_TableClassName="DiagnozCompleteDataTable" msprop:Generator_TableVarName="tableDiagnozComplete" msprop:Generator_TablePropName="DiagnozComplete" msprop:Generator_RowDeletingName="DiagnozCompleteRowDeleting" msprop:Generator_RowChangingName="DiagnozCompleteRowChanging" msprop:Generator_RowEvHandlerName="DiagnozCompleteRowChangeEventHandler" msprop:Generator_RowDeletedName="DiagnozCompleteRowDeleted" msprop:Generator_UserTableName="DiagnozComplete" msprop:Generator_RowChangedName="DiagnozCompleteRowChanged" msprop:Generator_RowEvArgName="DiagnozCompleteRowChangeEvent" msprop:Generator_RowClassName="DiagnozCompleteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Prizvische" msprop:Generator_ColumnVarNameInTable="columnPrizvische" msprop:Generator_ColumnPropNameInRow="Prizvische" msprop:Generator_ColumnPropNameInTable="PrizvischeColumn" msprop:Generator_UserColumnName="Prizvische">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Imya" msprop:Generator_ColumnVarNameInTable="columnImya" msprop:Generator_ColumnPropNameInRow="Imya" msprop:Generator_ColumnPropNameInTable="ImyaColumn" msprop:Generator_UserColumnName="Imya">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Pobatkovi" msprop:Generator_ColumnVarNameInTable="columnPobatkovi" msprop:Generator_ColumnPropNameInRow="Pobatkovi" msprop:Generator_ColumnPropNameInTable="PobatkoviColumn" msprop:Generator_UserColumnName="Pobatkovi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDdiagnoz" msprop:Generator_ColumnVarNameInTable="columnIDdiagnoz" msprop:Generator_ColumnPropNameInRow="IDdiagnoz" msprop:Generator_ColumnPropNameInTable="IDdiagnozColumn" msprop:Generator_UserColumnName="IDdiagnoz" type="xs:int" />
+              <xs:element name="NameDiagnoz" msprop:Generator_ColumnVarNameInTable="columnNameDiagnoz" msprop:Generator_ColumnPropNameInRow="NameDiagnoz" msprop:Generator_ColumnPropNameInTable="NameDiagnozColumn" msprop:Generator_UserColumnName="NameDiagnoz">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DrugsComplete" msprop:Generator_TableClassName="DrugsCompleteDataTable" msprop:Generator_TableVarName="tableDrugsComplete" msprop:Generator_TablePropName="DrugsComplete" msprop:Generator_RowDeletingName="DrugsCompleteRowDeleting" msprop:Generator_RowChangingName="DrugsCompleteRowChanging" msprop:Generator_RowEvHandlerName="DrugsCompleteRowChangeEventHandler" msprop:Generator_RowDeletedName="DrugsCompleteRowDeleted" msprop:Generator_UserTableName="DrugsComplete" msprop:Generator_RowChangedName="DrugsCompleteRowChanged" msprop:Generator_RowEvArgName="DrugsCompleteRowChangeEvent" msprop:Generator_RowClassName="DrugsCompleteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Numer" msprop:Generator_ColumnVarNameInTable="columnNumer" msprop:Generator_ColumnPropNameInRow="Numer" msprop:Generator_ColumnPropNameInTable="NumerColumn" msprop:Generator_UserColumnName="Numer" type="xs:int" />
+              <xs:element name="WhatToDo" msprop:Generator_ColumnVarNameInTable="columnWhatToDo" msprop:Generator_ColumnPropNameInRow="WhatToDo" msprop:Generator_ColumnPropNameInTable="WhatToDoColumn" msprop:Generator_UserColumnName="WhatToDo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDdiagnoz" msprop:Generator_ColumnVarNameInTable="columnIDdiagnoz" msprop:Generator_ColumnPropNameInRow="IDdiagnoz" msprop:Generator_ColumnPropNameInTable="IDdiagnozColumn" msprop:Generator_UserColumnName="IDdiagnoz" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DiagnozComplete" />
+      <xs:field xpath="mstns:IDdiagnoz" />
+    </xs:unique>
+    <xs:unique name="DrugsComplete_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DrugsComplete" />
+      <xs:field xpath="mstns:Numer" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

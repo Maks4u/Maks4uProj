@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Kursa4DataSet5" targetNamespace="http://tempuri.org/Kursa4DataSet5.xsd" xmlns:mstns="http://tempuri.org/Kursa4DataSet5.xsd" xmlns="http://tempuri.org/Kursa4DataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Kursa4ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Kursa4ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Kurs.Properties.Settings.GlobalReference.Default.Kursa4ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Number4TableAdapter" GeneratorDataComponentClassName="Number4TableAdapter" Name="Number4" UserDataComponentName="Number4TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kursa4ConnectionString (Settings)" DbObjectName="Kursa4.dbo.Number4" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT WhatToDo, IDdiagnoz FROM dbo.Number4</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="WhatToDo" DataSetColumn="WhatToDo" />
+              <Mapping SourceColumn="IDdiagnoz" DataSetColumn="IDdiagnoz" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Kursa4DataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Kursa4DataSet5" msprop:Generator_UserDSName="Kursa4DataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Number4" msprop:Generator_TableClassName="Number4DataTable" msprop:Generator_TableVarName="tableNumber4" msprop:Generator_TablePropName="Number4" msprop:Generator_RowDeletingName="Number4RowDeleting" msprop:Generator_RowChangingName="Number4RowChanging" msprop:Generator_RowEvHandlerName="Number4RowChangeEventHandler" msprop:Generator_RowDeletedName="Number4RowDeleted" msprop:Generator_UserTableName="Number4" msprop:Generator_RowChangedName="Number4RowChanged" msprop:Generator_RowEvArgName="Number4RowChangeEvent" msprop:Generator_RowClassName="Number4Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WhatToDo" msprop:Generator_ColumnVarNameInTable="columnWhatToDo" msprop:Generator_ColumnPropNameInRow="WhatToDo" msprop:Generator_ColumnPropNameInTable="WhatToDoColumn" msprop:Generator_UserColumnName="WhatToDo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDdiagnoz" msprop:Generator_ColumnVarNameInTable="columnIDdiagnoz" msprop:Generator_ColumnPropNameInRow="IDdiagnoz" msprop:Generator_ColumnPropNameInTable="IDdiagnozColumn" msprop:Generator_UserColumnName="IDdiagnoz" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

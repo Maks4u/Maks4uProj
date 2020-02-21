@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Kursa4DataSet2" targetNamespace="http://tempuri.org/Kursa4DataSet2.xsd" xmlns:mstns="http://tempuri.org/Kursa4DataSet2.xsd" xmlns="http://tempuri.org/Kursa4DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Kursa4ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Kursa4ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Kurs.Properties.Settings.GlobalReference.Default.Kursa4ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VievFuckingDrugsTableAdapter" GeneratorDataComponentClassName="VievFuckingDrugsTableAdapter" Name="VievFuckingDrugs" UserDataComponentName="VievFuckingDrugsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kursa4ConnectionString (Settings)" DbObjectName="Kursa4.dbo.VievFuckingDrugs" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT IDdiagnoz, WhatToDo FROM dbo.VievFuckingDrugs</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IDdiagnoz" DataSetColumn="IDdiagnoz" />
+              <Mapping SourceColumn="WhatToDo" DataSetColumn="WhatToDo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Kursa4DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Kursa4DataSet2" msprop:Generator_UserDSName="Kursa4DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VievFuckingDrugs" msprop:Generator_TableClassName="VievFuckingDrugsDataTable" msprop:Generator_TableVarName="tableVievFuckingDrugs" msprop:Generator_TablePropName="VievFuckingDrugs" msprop:Generator_RowDeletingName="VievFuckingDrugsRowDeleting" msprop:Generator_RowChangingName="VievFuckingDrugsRowChanging" msprop:Generator_RowEvHandlerName="VievFuckingDrugsRowChangeEventHandler" msprop:Generator_RowDeletedName="VievFuckingDrugsRowDeleted" msprop:Generator_UserTableName="VievFuckingDrugs" msprop:Generator_RowChangedName="VievFuckingDrugsRowChanged" msprop:Generator_RowEvArgName="VievFuckingDrugsRowChangeEvent" msprop:Generator_RowClassName="VievFuckingDrugsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDdiagnoz" msprop:Generator_ColumnVarNameInTable="columnIDdiagnoz" msprop:Generator_ColumnPropNameInRow="IDdiagnoz" msprop:Generator_ColumnPropNameInTable="IDdiagnozColumn" msprop:Generator_UserColumnName="IDdiagnoz" type="xs:int" />
+              <xs:element name="WhatToDo" msprop:Generator_ColumnVarNameInTable="columnWhatToDo" msprop:Generator_ColumnPropNameInRow="WhatToDo" msprop:Generator_ColumnPropNameInTable="WhatToDoColumn" msprop:Generator_UserColumnName="WhatToDo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:VievFuckingDrugs" />
+      <xs:field xpath="mstns:IDdiagnoz" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

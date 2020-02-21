@@ -1,0 +1,62 @@
+C:\Users\User\source\repos\Kurs\Kurs\bin\Release\Database1.mdf
+C:\Users\User\source\repos\Kurs\Kurs\bin\Release\Database1_log.ldf
+C:\Users\User\source\repos\Kurs\Kurs\bin\Release\Kurs.exe.config
+C:\Users\User\source\repos\Kurs\Kurs\bin\Release\Kurs.exe
+C:\Users\User\source\repos\Kurs\Kurs\bin\Release\Kurs.pdb
+C:\Users\User\source\repos\Kurs\Kurs\obj\Release\Kurs.AddCategory.resources
+C:\Users\User\source\repos\Kurs\Kurs\obj\Release\Kurs.AddDiagnoz.resources
+C:\Users\User\source\repos\Kurs\Kurs\obj\Release\Kurs.AddDoctor.resources
+C:\Users\User\source\repos\Kurs\Kurs\obj\Release\Kurs.AddDrugs.resources
+C:\Users\User\source\repos\Kurs\Kurs\obj\Release\Kurs.AddPatient.resources
+C:\Users\User\source\repos\Kurs\Kurs\obj\Release\Kurs.AddProf.resources
+C:\Users\User\source\repos\Kurs\Kurs\obj\Release\Kurs.DeleteDru.resources
+C:\Users\User\source\repos\Kurs\Kurs\obj\Release\Kurs.Form1.resources
+C:\Users\User\source\repos\Kurs\Kurs\obj\Release\Kurs.Form2.resources
+C:\Users\User\source\repos\Kurs\Kurs\obj\Release\Kurs.Form3.resources
+C:\Users\User\source\repos\Kurs\Kurs\obj\Release\Kurs.Properties.Resources.resources
+C:\Users\User\source\repos\Kurs\Kurs\obj\Release\Kurs.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Kurs\Kurs\obj\Release\Kurs.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Kurs\Kurs\obj\Release\Kurs.exe
+C:\Users\User\source\repos\Kurs\Kurs\obj\Release\Kurs.pdb
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\bin\Release\Database1.mdf
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\bin\Release\Database1_log.ldf
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\bin\Release\Kurs.exe.config
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\bin\Release\Kurs.exe
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\bin\Release\Kurs.pdb
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.csprojAssemblyReference.cache
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.AddCategory.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.AddDiagnoz.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.AddDoctor.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.AddDrugs.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.AddPatient.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.AddProf.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.DeleteDru.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.Form1.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.Form2.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.Form3.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.Properties.Resources.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.csproj.GenerateResource.cache
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.csproj.CoreCompileInputs.cache
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.exe
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Kurs\Kurs\obj\Release\Kurs.pdb
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\bin\Release\Database1.mdf
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\bin\Release\Database1_log.ldf
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\bin\Release\Kurs.exe.config
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\bin\Release\Kurs.exe
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\bin\Release\Kurs.pdb
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.csprojAssemblyReference.cache
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.AddCategory.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.AddDiagnoz.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.AddDoctor.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.AddDrugs.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.AddPatient.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.AddProf.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.DeleteDru.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.Form1.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.Form2.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.Form3.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.Properties.Resources.resources
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.csproj.GenerateResource.cache
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.csproj.CoreCompileInputs.cache
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.exe
+D:\Папка\Еще одна папка\И еще одна\Последняя уже\Кругом обман\Курсовая Суржик 3-7\Kurs\Kurs\obj\Release\Kurs.pdb

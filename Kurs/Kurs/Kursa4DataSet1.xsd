@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Kursa4DataSet1" targetNamespace="http://tempuri.org/Kursa4DataSet1.xsd" xmlns:mstns="http://tempuri.org/Kursa4DataSet1.xsd" xmlns="http://tempuri.org/Kursa4DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Kursa4ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Kursa4ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Kurs.Properties.Settings.GlobalReference.Default.Kursa4ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DrugsREDTableAdapter" GeneratorDataComponentClassName="DrugsREDTableAdapter" Name="DrugsRED" UserDataComponentName="DrugsREDTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kursa4ConnectionString (Settings)" DbObjectName="Kursa4.dbo.DrugsRED" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Imya, Prizvische, Pobatkovi, Datecome, WhatToDo FROM dbo.DrugsRED</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Imya" DataSetColumn="Imya" />
+              <Mapping SourceColumn="Prizvische" DataSetColumn="Prizvische" />
+              <Mapping SourceColumn="Pobatkovi" DataSetColumn="Pobatkovi" />
+              <Mapping SourceColumn="Datecome" DataSetColumn="Datecome" />
+              <Mapping SourceColumn="WhatToDo" DataSetColumn="WhatToDo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VievDiagnozREDTableAdapter" GeneratorDataComponentClassName="VievDiagnozREDTableAdapter" Name="VievDiagnozRED" UserDataComponentName="VievDiagnozREDTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kursa4ConnectionString (Settings)" DbObjectName="Kursa4.dbo.VievDiagnozRED" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Imya, Prizvische, Pobatkovi, Datecome, NameDiagnoz FROM dbo.VievDiagnozRED</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Imya" DataSetColumn="Imya" />
+              <Mapping SourceColumn="Prizvische" DataSetColumn="Prizvische" />
+              <Mapping SourceColumn="Pobatkovi" DataSetColumn="Pobatkovi" />
+              <Mapping SourceColumn="Datecome" DataSetColumn="Datecome" />
+              <Mapping SourceColumn="NameDiagnoz" DataSetColumn="NameDiagnoz" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VievDiagnozWithPatientTableAdapter" GeneratorDataComponentClassName="VievDiagnozWithPatientTableAdapter" Name="VievDiagnozWithPatient" UserDataComponentName="VievDiagnozWithPatientTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kursa4ConnectionString (Settings)" DbObjectName="Kursa4.dbo.VievDiagnozWithPatient" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT NameDiagnoz, IDcard, Prizvische, Imya, Pobatkovi FROM dbo.VievDiagnozWithPatient</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NameDiagnoz" DataSetColumn="NameDiagnoz" />
+              <Mapping SourceColumn="IDcard" DataSetColumn="IDcard" />
+              <Mapping SourceColumn="Prizvische" DataSetColumn="Prizvische" />
+              <Mapping SourceColumn="Imya" DataSetColumn="Imya" />
+              <Mapping SourceColumn="Pobatkovi" DataSetColumn="Pobatkovi" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VievDoctorTableAdapter" GeneratorDataComponentClassName="VievDoctorTableAdapter" Name="VievDoctor" UserDataComponentName="VievDoctorTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kursa4ConnectionString (Settings)" DbObjectName="Kursa4.dbo.VievDoctor" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Imya, Prizvische, Pobatkovi, NameCat, NameProf, CabinateNum FROM dbo.VievDoctor</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Imya" DataSetColumn="Imya" />
+              <Mapping SourceColumn="Prizvische" DataSetColumn="Prizvische" />
+              <Mapping SourceColumn="Pobatkovi" DataSetColumn="Pobatkovi" />
+              <Mapping SourceColumn="NameCat" DataSetColumn="NameCat" />
+              <Mapping SourceColumn="NameProf" DataSetColumn="NameProf" />
+              <Mapping SourceColumn="CabinateNum" DataSetColumn="CabinateNum" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VievDoctorREDTableAdapter" GeneratorDataComponentClassName="VievDoctorREDTableAdapter" Name="VievDoctorRED" UserDataComponentName="VievDoctorREDTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kursa4ConnectionString (Settings)" DbObjectName="Kursa4.dbo.VievDoctorRED" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT IDdoctor, Imya, Prizvische, Pobatkovi, NameProf, NameCat, CabinateNum FROM dbo.VievDoctorRED</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IDdoctor" DataSetColumn="IDdoctor" />
+              <Mapping SourceColumn="Imya" DataSetColumn="Imya" />
+              <Mapping SourceColumn="Prizvische" DataSetColumn="Prizvische" />
+              <Mapping SourceColumn="Pobatkovi" DataSetColumn="Pobatkovi" />
+              <Mapping SourceColumn="NameProf" DataSetColumn="NameProf" />
+              <Mapping SourceColumn="NameCat" DataSetColumn="NameCat" />
+              <Mapping SourceColumn="CabinateNum" DataSetColumn="CabinateNum" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VievDrugsCOMPLETETableAdapter" GeneratorDataComponentClassName="VievDrugsCOMPLETETableAdapter" Name="VievDrugsCOMPLETE" UserDataComponentName="VievDrugsCOMPLETETableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kursa4ConnectionString (Settings)" DbObjectName="Kursa4.dbo.VievDrugsCOMPLETE" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT NameDiagnoz, WhatToDo FROM dbo.VievDrugsCOMPLETE</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NameDiagnoz" DataSetColumn="NameDiagnoz" />
+              <Mapping SourceColumn="WhatToDo" DataSetColumn="WhatToDo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VievPatientTableAdapter" GeneratorDataComponentClassName="VievPatientTableAdapter" Name="VievPatient" UserDataComponentName="VievPatientTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kursa4ConnectionString (Settings)" DbObjectName="Kursa4.dbo.VievPatient" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Imya, Prizvische, Pobatkovi, Phone, Adress FROM dbo.VievPatient</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Imya" DataSetColumn="Imya" />
+              <Mapping SourceColumn="Prizvische" DataSetColumn="Prizvische" />
+              <Mapping SourceColumn="Pobatkovi" DataSetColumn="Pobatkovi" />
+              <Mapping SourceColumn="Phone" DataSetColumn="Phone" />
+              <Mapping SourceColumn="Adress" DataSetColumn="Adress" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VievPatientREDTableAdapter" GeneratorDataComponentClassName="VievPatientREDTableAdapter" Name="VievPatientRED" UserDataComponentName="VievPatientREDTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kursa4ConnectionString (Settings)" DbObjectName="Kursa4.dbo.VievPatientRED" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT IDcard, Imya, Prizvische, Pobatkovi, Phone, Adress FROM dbo.VievPatientRED</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IDcard" DataSetColumn="IDcard" />
+              <Mapping SourceColumn="Imya" DataSetColumn="Imya" />
+              <Mapping SourceColumn="Prizvische" DataSetColumn="Prizvische" />
+              <Mapping SourceColumn="Pobatkovi" DataSetColumn="Pobatkovi" />
+              <Mapping SourceColumn="Phone" DataSetColumn="Phone" />
+              <Mapping SourceColumn="Adress" DataSetColumn="Adress" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Kursa4DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Kursa4DataSet1" msprop:Generator_UserDSName="Kursa4DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DrugsRED" msprop:Generator_TableClassName="DrugsREDDataTable" msprop:Generator_TableVarName="tableDrugsRED" msprop:Generator_TablePropName="DrugsRED" msprop:Generator_RowDeletingName="DrugsREDRowDeleting" msprop:Generator_RowChangingName="DrugsREDRowChanging" msprop:Generator_RowEvHandlerName="DrugsREDRowChangeEventHandler" msprop:Generator_RowDeletedName="DrugsREDRowDeleted" msprop:Generator_UserTableName="DrugsRED" msprop:Generator_RowChangedName="DrugsREDRowChanged" msprop:Generator_RowEvArgName="DrugsREDRowChangeEvent" msprop:Generator_RowClassName="DrugsREDRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Imya" msprop:Generator_ColumnVarNameInTable="columnImya" msprop:Generator_ColumnPropNameInRow="Imya" msprop:Generator_ColumnPropNameInTable="ImyaColumn" msprop:Generator_UserColumnName="Imya">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Prizvische" msprop:Generator_ColumnVarNameInTable="columnPrizvische" msprop:Generator_ColumnPropNameInRow="Prizvische" msprop:Generator_ColumnPropNameInTable="PrizvischeColumn" msprop:Generator_UserColumnName="Prizvische">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Pobatkovi" msprop:Generator_ColumnVarNameInTable="columnPobatkovi" msprop:Generator_ColumnPropNameInRow="Pobatkovi" msprop:Generator_ColumnPropNameInTable="PobatkoviColumn" msprop:Generator_UserColumnName="Pobatkovi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Datecome" msprop:Generator_ColumnVarNameInTable="columnDatecome" msprop:Generator_ColumnPropNameInRow="Datecome" msprop:Generator_ColumnPropNameInTable="DatecomeColumn" msprop:Generator_UserColumnName="Datecome" type="xs:dateTime" />
+              <xs:element name="WhatToDo" msprop:Generator_ColumnVarNameInTable="columnWhatToDo" msprop:Generator_ColumnPropNameInRow="WhatToDo" msprop:Generator_ColumnPropNameInTable="WhatToDoColumn" msprop:Generator_UserColumnName="WhatToDo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VievDiagnozRED" msprop:Generator_TableClassName="VievDiagnozREDDataTable" msprop:Generator_TableVarName="tableVievDiagnozRED" msprop:Generator_TablePropName="VievDiagnozRED" msprop:Generator_RowDeletingName="VievDiagnozREDRowDeleting" msprop:Generator_RowChangingName="VievDiagnozREDRowChanging" msprop:Generator_RowEvHandlerName="VievDiagnozREDRowChangeEventHandler" msprop:Generator_RowDeletedName="VievDiagnozREDRowDeleted" msprop:Generator_UserTableName="VievDiagnozRED" msprop:Generator_RowChangedName="VievDiagnozREDRowChanged" msprop:Generator_RowEvArgName="VievDiagnozREDRowChangeEvent" msprop:Generator_RowClassName="VievDiagnozREDRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Imya" msprop:Generator_ColumnVarNameInTable="columnImya" msprop:Generator_ColumnPropNameInRow="Imya" msprop:Generator_ColumnPropNameInTable="ImyaColumn" msprop:Generator_UserColumnName="Imya">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Prizvische" msprop:Generator_ColumnVarNameInTable="columnPrizvische" msprop:Generator_ColumnPropNameInRow="Prizvische" msprop:Generator_ColumnPropNameInTable="PrizvischeColumn" msprop:Generator_UserColumnName="Prizvische">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Pobatkovi" msprop:Generator_ColumnVarNameInTable="columnPobatkovi" msprop:Generator_ColumnPropNameInRow="Pobatkovi" msprop:Generator_ColumnPropNameInTable="PobatkoviColumn" msprop:Generator_UserColumnName="Pobatkovi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Datecome" msprop:Generator_ColumnVarNameInTable="columnDatecome" msprop:Generator_ColumnPropNameInRow="Datecome" msprop:Generator_ColumnPropNameInTable="DatecomeColumn" msprop:Generator_UserColumnName="Datecome" type="xs:dateTime" />
+              <xs:element name="NameDiagnoz" msprop:Generator_ColumnVarNameInTable="columnNameDiagnoz" msprop:Generator_ColumnPropNameInRow="NameDiagnoz" msprop:Generator_ColumnPropNameInTable="NameDiagnozColumn" msprop:Generator_UserColumnName="NameDiagnoz">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VievDiagnozWithPatient" msprop:Generator_TableClassName="VievDiagnozWithPatientDataTable" msprop:Generator_TableVarName="tableVievDiagnozWithPatient" msprop:Generator_TablePropName="VievDiagnozWithPatient" msprop:Generator_RowDeletingName="VievDiagnozWithPatientRowDeleting" msprop:Generator_RowChangingName="VievDiagnozWithPatientRowChanging" msprop:Generator_RowEvHandlerName="VievDiagnozWithPatientRowChangeEventHandler" msprop:Generator_RowDeletedName="VievDiagnozWithPatientRowDeleted" msprop:Generator_UserTableName="VievDiagnozWithPatient" msprop:Generator_RowChangedName="VievDiagnozWithPatientRowChanged" msprop:Generator_RowEvArgName="VievDiagnozWithPatientRowChangeEvent" msprop:Generator_RowClassName="VievDiagnozWithPatientRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NameDiagnoz" msprop:Generator_ColumnVarNameInTable="columnNameDiagnoz" msprop:Generator_ColumnPropNameInRow="NameDiagnoz" msprop:Generator_ColumnPropNameInTable="NameDiagnozColumn" msprop:Generator_UserColumnName="NameDiagnoz">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDcard" msprop:Generator_ColumnVarNameInTable="columnIDcard" msprop:Generator_ColumnPropNameInRow="IDcard" msprop:Generator_ColumnPropNameInTable="IDcardColumn" msprop:Generator_UserColumnName="IDcard" type="xs:int" />
+              <xs:element name="Prizvische" msprop:Generator_ColumnVarNameInTable="columnPrizvische" msprop:Generator_ColumnPropNameInRow="Prizvische" msprop:Generator_ColumnPropNameInTable="PrizvischeColumn" msprop:Generator_UserColumnName="Prizvische">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Imya" msprop:Generator_ColumnVarNameInTable="columnImya" msprop:Generator_ColumnPropNameInRow="Imya" msprop:Generator_ColumnPropNameInTable="ImyaColumn" msprop:Generator_UserColumnName="Imya">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Pobatkovi" msprop:Generator_ColumnVarNameInTable="columnPobatkovi" msprop:Generator_ColumnPropNameInRow="Pobatkovi" msprop:Generator_ColumnPropNameInTable="PobatkoviColumn" msprop:Generator_UserColumnName="Pobatkovi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VievDoctor" msprop:Generator_TableClassName="VievDoctorDataTable" msprop:Generator_TableVarName="tableVievDoctor" msprop:Generator_TablePropName="VievDoctor" msprop:Generator_RowDeletingName="VievDoctorRowDeleting" msprop:Generator_RowChangingName="VievDoctorRowChanging" msprop:Generator_RowEvHandlerName="VievDoctorRowChangeEventHandler" msprop:Generator_RowDeletedName="VievDoctorRowDeleted" msprop:Generator_UserTableName="VievDoctor" msprop:Generator_RowChangedName="VievDoctorRowChanged" msprop:Generator_RowEvArgName="VievDoctorRowChangeEvent" msprop:Generator_RowClassName="VievDoctorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Imya" msprop:Generator_ColumnVarNameInTable="columnImya" msprop:Generator_ColumnPropNameInRow="Imya" msprop:Generator_ColumnPropNameInTable="ImyaColumn" msprop:Generator_UserColumnName="Imya">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Prizvische" msprop:Generator_ColumnVarNameInTable="columnPrizvische" msprop:Generator_ColumnPropNameInRow="Prizvische" msprop:Generator_ColumnPropNameInTable="PrizvischeColumn" msprop:Generator_UserColumnName="Prizvische">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Pobatkovi" msprop:Generator_ColumnVarNameInTable="columnPobatkovi" msprop:Generator_ColumnPropNameInRow="Pobatkovi" msprop:Generator_ColumnPropNameInTable="PobatkoviColumn" msprop:Generator_UserColumnName="Pobatkovi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NameCat" msprop:Generator_ColumnVarNameInTable="columnNameCat" msprop:Generator_ColumnPropNameInRow="NameCat" msprop:Generator_ColumnPropNameInTable="NameCatColumn" msprop:Generator_UserColumnName="NameCat">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NameProf" msprop:Generator_ColumnVarNameInTable="columnNameProf" msprop:Generator_ColumnPropNameInRow="NameProf" msprop:Generator_ColumnPropNameInTable="NameProfColumn" msprop:Generator_UserColumnName="NameProf">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CabinateNum" msprop:Generator_ColumnVarNameInTable="columnCabinateNum" msprop:Generator_ColumnPropNameInRow="CabinateNum" msprop:Generator_ColumnPropNameInTable="CabinateNumColumn" msprop:Generator_UserColumnName="CabinateNum" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VievDoctorRED" msprop:Generator_TableClassName="VievDoctorREDDataTable" msprop:Generator_TableVarName="tableVievDoctorRED" msprop:Generator_TablePropName="VievDoctorRED" msprop:Generator_RowDeletingName="VievDoctorREDRowDeleting" msprop:Generator_RowChangingName="VievDoctorREDRowChanging" msprop:Generator_RowEvHandlerName="VievDoctorREDRowChangeEventHandler" msprop:Generator_RowDeletedName="VievDoctorREDRowDeleted" msprop:Generator_UserTableName="VievDoctorRED" msprop:Generator_RowChangedName="VievDoctorREDRowChanged" msprop:Generator_RowEvArgName="VievDoctorREDRowChangeEvent" msprop:Generator_RowClassName="VievDoctorREDRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDdoctor" msprop:Generator_ColumnVarNameInTable="columnIDdoctor" msprop:Generator_ColumnPropNameInRow="IDdoctor" msprop:Generator_ColumnPropNameInTable="IDdoctorColumn" msprop:Generator_UserColumnName="IDdoctor" type="xs:int" />
+              <xs:element name="Imya" msprop:Generator_ColumnVarNameInTable="columnImya" msprop:Generator_ColumnPropNameInRow="Imya" msprop:Generator_ColumnPropNameInTable="ImyaColumn" msprop:Generator_UserColumnName="Imya">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Prizvische" msprop:Generator_ColumnVarNameInTable="columnPrizvische" msprop:Generator_ColumnPropNameInRow="Prizvische" msprop:Generator_ColumnPropNameInTable="PrizvischeColumn" msprop:Generator_UserColumnName="Prizvische">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Pobatkovi" msprop:Generator_ColumnVarNameInTable="columnPobatkovi" msprop:Generator_ColumnPropNameInRow="Pobatkovi" msprop:Generator_ColumnPropNameInTable="PobatkoviColumn" msprop:Generator_UserColumnName="Pobatkovi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NameProf" msprop:Generator_ColumnVarNameInTable="columnNameProf" msprop:Generator_ColumnPropNameInRow="NameProf" msprop:Generator_ColumnPropNameInTable="NameProfColumn" msprop:Generator_UserColumnName="NameProf">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NameCat" msprop:Generator_ColumnVarNameInTable="columnNameCat" msprop:Generator_ColumnPropNameInRow="NameCat" msprop:Generator_ColumnPropNameInTable="NameCatColumn" msprop:Generator_UserColumnName="NameCat">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CabinateNum" msprop:Generator_ColumnVarNameInTable="columnCabinateNum" msprop:Generator_ColumnPropNameInRow="CabinateNum" msprop:Generator_ColumnPropNameInTable="CabinateNumColumn" msprop:Generator_UserColumnName="CabinateNum" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VievDrugsCOMPLETE" msprop:Generator_TableClassName="VievDrugsCOMPLETEDataTable" msprop:Generator_TableVarName="tableVievDrugsCOMPLETE" msprop:Generator_TablePropName="VievDrugsCOMPLETE" msprop:Generator_RowDeletingName="VievDrugsCOMPLETERowDeleting" msprop:Generator_RowChangingName="VievDrugsCOMPLETERowChanging" msprop:Generator_RowEvHandlerName="VievDrugsCOMPLETERowChangeEventHandler" msprop:Generator_RowDeletedName="VievDrugsCOMPLETERowDeleted" msprop:Generator_UserTableName="VievDrugsCOMPLETE" msprop:Generator_RowChangedName="VievDrugsCOMPLETERowChanged" msprop:Generator_RowEvArgName="VievDrugsCOMPLETERowChangeEvent" msprop:Generator_RowClassName="VievDrugsCOMPLETERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NameDiagnoz" msprop:Generator_ColumnVarNameInTable="columnNameDiagnoz" msprop:Generator_ColumnPropNameInRow="NameDiagnoz" msprop:Generator_ColumnPropNameInTable="NameDiagnozColumn" msprop:Generator_UserColumnName="NameDiagnoz">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WhatToDo" msprop:Generator_ColumnVarNameInTable="columnWhatToDo" msprop:Generator_ColumnPropNameInRow="WhatToDo" msprop:Generator_ColumnPropNameInTable="WhatToDoColumn" msprop:Generator_UserColumnName="WhatToDo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VievPatient" msprop:Generator_TableClassName="VievPatientDataTable" msprop:Generator_TableVarName="tableVievPatient" msprop:Generator_TablePropName="VievPatient" msprop:Generator_RowDeletingName="VievPatientRowDeleting" msprop:Generator_RowChangingName="VievPatientRowChanging" msprop:Generator_RowEvHandlerName="VievPatientRowChangeEventHandler" msprop:Generator_RowDeletedName="VievPatientRowDeleted" msprop:Generator_UserTableName="VievPatient" msprop:Generator_RowChangedName="VievPatientRowChanged" msprop:Generator_RowEvArgName="VievPatientRowChangeEvent" msprop:Generator_RowClassName="VievPatientRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Imya" msprop:Generator_ColumnVarNameInTable="columnImya" msprop:Generator_ColumnPropNameInRow="Imya" msprop:Generator_ColumnPropNameInTable="ImyaColumn" msprop:Generator_UserColumnName="Imya">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Prizvische" msprop:Generator_ColumnVarNameInTable="columnPrizvische" msprop:Generator_ColumnPropNameInRow="Prizvische" msprop:Generator_ColumnPropNameInTable="PrizvischeColumn" msprop:Generator_UserColumnName="Prizvische">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Pobatkovi" msprop:Generator_ColumnVarNameInTable="columnPobatkovi" msprop:Generator_ColumnPropNameInRow="Pobatkovi" msprop:Generator_ColumnPropNameInTable="PobatkoviColumn" msprop:Generator_UserColumnName="Pobatkovi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Phone" msprop:Generator_ColumnVarNameInTable="columnPhone" msprop:Generator_ColumnPropNameInRow="Phone" msprop:Generator_ColumnPropNameInTable="PhoneColumn" msprop:Generator_UserColumnName="Phone" type="xs:int" />
+              <xs:element name="Adress" msprop:Generator_ColumnVarNameInTable="columnAdress" msprop:Generator_ColumnPropNameInRow="Adress" msprop:Generator_ColumnPropNameInTable="AdressColumn" msprop:Generator_UserColumnName="Adress">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VievPatientRED" msprop:Generator_TableClassName="VievPatientREDDataTable" msprop:Generator_TableVarName="tableVievPatientRED" msprop:Generator_TablePropName="VievPatientRED" msprop:Generator_RowDeletingName="VievPatientREDRowDeleting" msprop:Generator_RowChangingName="VievPatientREDRowChanging" msprop:Generator_RowEvHandlerName="VievPatientREDRowChangeEventHandler" msprop:Generator_RowDeletedName="VievPatientREDRowDeleted" msprop:Generator_UserTableName="VievPatientRED" msprop:Generator_RowChangedName="VievPatientREDRowChanged" msprop:Generator_RowEvArgName="VievPatientREDRowChangeEvent" msprop:Generator_RowClassName="VievPatientREDRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDcard" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIDcard" msprop:Generator_ColumnPropNameInRow="IDcard" msprop:Generator_ColumnPropNameInTable="IDcardColumn" msprop:Generator_UserColumnName="IDcard" type="xs:int" />
+              <xs:element name="Imya" msprop:Generator_ColumnVarNameInTable="columnImya" msprop:Generator_ColumnPropNameInRow="Imya" msprop:Generator_ColumnPropNameInTable="ImyaColumn" msprop:Generator_UserColumnName="Imya">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Prizvische" msprop:Generator_ColumnVarNameInTable="columnPrizvische" msprop:Generator_ColumnPropNameInRow="Prizvische" msprop:Generator_ColumnPropNameInTable="PrizvischeColumn" msprop:Generator_UserColumnName="Prizvische">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Pobatkovi" msprop:Generator_ColumnVarNameInTable="columnPobatkovi" msprop:Generator_ColumnPropNameInRow="Pobatkovi" msprop:Generator_ColumnPropNameInTable="PobatkoviColumn" msprop:Generator_UserColumnName="Pobatkovi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Phone" msprop:Generator_ColumnVarNameInTable="columnPhone" msprop:Generator_ColumnPropNameInRow="Phone" msprop:Generator_ColumnPropNameInTable="PhoneColumn" msprop:Generator_UserColumnName="Phone" type="xs:int" />
+              <xs:element name="Adress" msprop:Generator_ColumnVarNameInTable="columnAdress" msprop:Generator_ColumnPropNameInRow="Adress" msprop:Generator_ColumnPropNameInTable="AdressColumn" msprop:Generator_UserColumnName="Adress">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:VievDiagnozWithPatient" />
+      <xs:field xpath="mstns:IDcard" />
+    </xs:unique>
+    <xs:unique name="VievDoctorRED_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:VievDoctorRED" />
+      <xs:field xpath="mstns:IDdoctor" />
+    </xs:unique>
+    <xs:unique name="VievPatientRED_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:VievPatientRED" />
+      <xs:field xpath="mstns:IDcard" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
